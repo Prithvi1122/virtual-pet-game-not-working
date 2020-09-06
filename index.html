@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title>Virtual Pet-1</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+      <script src="p5.play.js"></script>
+      <script src="js/Food.js"></script>
+
+      
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://cdn.jsdelivr.net/npm/firebase@6.1.0/firebase.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCOtmfYV2xVIf1GciwlmbTmzE6YIbYJXf0",
+    authDomain: "virtual-pet-project-baaaf.firebaseapp.com",
+    databaseURL: "https://virtual-pet-project-baaaf.firebaseio.com",
+    projectId: "virtual-pet-project-baaaf",
+    storageBucket: "virtual-pet-project-baaaf.appspot.com",
+    messagingSenderId: "933354038585",
+    appId: "1:933354038585:web:3d9fb4d6a5fc146b8634e8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+      <script src="sketch.js"></script>
+    </body>
+  </html>
